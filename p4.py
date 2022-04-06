@@ -18,7 +18,6 @@ def Affichage(grille):
         string = string + "_|"
         string=string+"\n"
     print(string)
-
 #Fonction pour cloner une grille
 def Clone(grille):
     clone=[[0] * 12 for i in range(6)]
